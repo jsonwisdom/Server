@@ -1,0 +1,25 @@
+# Secrets — never commit
+.env
+.env.*
+*.pem
+*.key
+service-account*.json
+*service_account*.json
+*secret*
+*secrets*
+credentials*.json
+*credential*.json
+*.keystore
+*.p12
+*.pfx
+
+# Archive-only pattern — extracted code should be committed intentionally after scan
+*.zip
+
+# Runtime/build artifacts
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+logs/
